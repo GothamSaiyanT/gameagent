@@ -1,0 +1,2999 @@
+# depslib dependency file v1.0
+1738169969 source:c:\prac_c++\game_engine\main.cpp
+	<exception>
+	<string>
+	<iostream>
+	<SDL2/SDL.h>
+	"Game.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_guid.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"close_code.h"
+
+1735746525 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_windows.h"
+	"SDL_config_winrt.h"
+	"SDL_config_wingdk.h"
+	"SDL_config_xbox.h"
+	"SDL_config_macosx.h"
+	"SDL_config_iphoneos.h"
+	"SDL_config_android.h"
+	"SDL_config_os2.h"
+	"SDL_config_emscripten.h"
+	"SDL_config_ngage.h"
+	"SDL_config_minimal.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	<AvailabilityMacros.h>
+	<TargetConditionals.h>
+	<TargetConditionals.h>
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1735746525 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_config_windows.h
+	"SDL_platform.h"
+	<winsdkver.h>
+	<sdkddkver.h>
+
+1735746525 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_config_winrt.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1735746525 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_config_wingdk.h
+	"SDL_platform.h"
+
+1735746525 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_config_xbox.h
+	"SDL_platform.h"
+
+1735746525 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1735746525 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_config_iphoneos.h
+	"SDL_platform.h"
+
+1735746525 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_config_android.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1735746525 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_config_os2.h
+	"SDL_platform.h"
+
+1735746525 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_config_emscripten.h
+	"SDL_platform.h"
+
+1735746525 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_config_ngage.h
+	"SDL_platform.h"
+
+1735746525 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_config_minimal.h
+	"SDL_platform.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<lsxintrin.h>
+	<lasxintrin.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_guid.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_guid.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1743233202 c:\prac_c++\game_engine\game.h
+	"SDL2/SDL.h"
+	<unordered_map>
+	<string>
+	<vector>
+	"Texture.h"
+
+1743687485 source:c:\prac_c++\game_engine\game.cpp
+	"Game.h"
+	<algorithm>
+	<SDL2/SDL_image.h>
+	<GL/glew.h>
+	<GL/gl.h>
+	"Actor.h"
+	"SpriteComponent.h"
+	"Ship.h"
+	"Shader.h"
+	"BGSpriteComponent.h"
+	"Asteroid.h"
+	"VertexArray.h"
+	"Texture.h"
+	"PlaneActor.h"
+
+1741361209 c:\prac_c++\game_engine\actor.h
+	<Vector>
+	"Math.h"
+	<algorithm>
+	<SDL2/SDL.h>
+	<cstdint>
+
+1740811823 source:c:\prac_c++\game_engine\animspritecomponent.cpp
+	"AnimSpriteComponent.h"
+	"Math.h"
+	"Texture.h"
+
+1740811982 c:\prac_c++\game_engine\animspritecomponent.h
+	"SpriteComponent.h"
+	<vector>
+	<string>
+	<unordered_map>
+
+1740812184 c:\prac_c++\game_engine\spritecomponent.h
+	"Component.h"
+	"SDL2/SDL.h"
+	"Shader.h"
+	"Texture.h"
+
+1741277859 c:\prac_c++\game_engine\component.h
+	<cstdint>
+
+1739469006 c:\prac_c++\game_engine\math.h
+	<cmath>
+	<memory.h>
+	<limits>
+
+1743683952 source:c:\prac_c++\game_engine\bgspritecomponent.cpp
+	"BGSpriteComponent.h"
+	"Actor.h"
+	"Texture.h"
+
+1741527206 c:\prac_c++\game_engine\bgspritecomponent.h
+	"SpriteComponent.h"
+	<vector>
+	"Math.h"
+	"Texture.h"
+
+1739469292 source:c:\prac_c++\game_engine\component.cpp
+	"Component.h"
+	"Actor.h"
+
+1741279416 source:c:\prac_c++\game_engine\actor.cpp
+	"Actor.h"
+	"Game.h"
+	"Component.h"
+	<algorithm>
+
+1739469015 source:c:\prac_c++\game_engine\math.cpp
+	"Math.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_guid.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"close_code.h"
+
+1735746525 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_windows.h"
+	"SDL_config_winrt.h"
+	"SDL_config_wingdk.h"
+	"SDL_config_xbox.h"
+	"SDL_config_macosx.h"
+	"SDL_config_iphoneos.h"
+	"SDL_config_android.h"
+	"SDL_config_os2.h"
+	"SDL_config_emscripten.h"
+	"SDL_config_ngage.h"
+	"SDL_config_minimal.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	<AvailabilityMacros.h>
+	<TargetConditionals.h>
+	<TargetConditionals.h>
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\close_code.h
+
+1735746525 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_config_windows.h
+	"SDL_platform.h"
+	<winsdkver.h>
+	<sdkddkver.h>
+
+1735746525 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_config_winrt.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1735746525 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_config_wingdk.h
+	"SDL_platform.h"
+
+1735746525 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_config_xbox.h
+	"SDL_platform.h"
+
+1735746525 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1735746525 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_config_iphoneos.h
+	"SDL_platform.h"
+
+1735746525 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_config_android.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1735746525 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_config_os2.h
+	"SDL_platform.h"
+
+1735746525 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_config_emscripten.h
+	"SDL_platform.h"
+
+1735746525 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_config_ngage.h
+	"SDL_platform.h"
+
+1735746525 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_config_minimal.h
+	"SDL_platform.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<lsxintrin.h>
+	<lasxintrin.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_guid.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_guid.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757302 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1734463625 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1739896034 c:\prac_c++\game_engine\ship.h
+	"Actor.h"
+
+1743687146 source:c:\prac_c++\game_engine\ship.cpp
+	"Ship.h"
+	"AnimSpriteComponent.h"
+	"Game.h"
+	"InputComponent.h"
+	"Laser.h"
+
+1741359182 source:c:\prac_c++\game_engine\spritecomponent.cpp
+	"SpriteComponent.h"
+	"Actor.h"
+	"Game.h"
+
+1739881607 c:\prac_c++\game_engine\tilemapcomponent.h
+	<unordered_map>
+	"SpriteComponent.h"
+	"Math.h"
+	<vector>
+
+1739896599 c:\prac_c++\game_engine\asteroid.h
+	"Actor.h"
+	"CircleComponent.h"
+
+1740811743 source:c:\prac_c++\game_engine\asteroid.cpp
+	"Asteroid.h"
+	"Random.h"
+	"SpriteComponent.h"
+	"Game.h"
+	"MoveComponent.h"
+
+1739885793 c:\prac_c++\game_engine\random.h
+	<random>
+	"Math.h"
+
+1739884574 c:\prac_c++\game_engine\movecomponent.h
+	"Component.h"
+
+1739885807 source:c:\prac_c++\game_engine\random.cpp
+	"Random.h"
+
+1743686684 source:c:\prac_c++\game_engine\movecomponent.cpp
+	"MoveComponent.h"
+	"Math.h"
+	"Component.h"
+	"Actor.h"
+
+1741539814 source:c:\prac_c++\game_engine\inputcomponent.cpp
+	"InputComponent.h"
+
+1739892479 c:\prac_c++\game_engine\inputcomponent.h
+	"MoveComponent.h"
+	"Actor.h"
+
+1739896663 c:\prac_c++\game_engine\circlecomponent.h
+	"Component.h"
+	"Math.h"
+
+1739896691 source:c:\prac_c++\game_engine\circlecomponent.cpp
+	"CircleComponent.h"
+	"Actor.h"
+
+1739896427 c:\prac_c++\game_engine\laser.h
+	"Actor.h"
+
+1739896748 source:c:\prac_c++\game_engine\laser.cpp
+	"Laser.h"
+	"Actor.h"
+	"SpriteComponent.h"
+	"Game.h"
+	"MoveComponent.h"
+	"CircleComponent.h"
+	"Asteroid.h"
+
+1740067511 source:c:\prac_c++\game_engine\aicomponent.cpp
+	"AIComponent.h"
+	"AIState.h"
+
+1740053050 c:\prac_c++\game_engine\aicomponent.h
+	"Component.h"
+	<unordered_map>
+	<string>
+
+1740067653 c:\prac_c++\game_engine\aistate.h
+	"Actor.h"
+
+1740067427 source:c:\prac_c++\game_engine\aistate.cpp
+	"AIState.h"
+	"AIComponent.h"
+	<SDL2/SDL_log.h>
+
+1584277261 c:\program files\codeblocks\mingw\include\gl\glew.h
+	<cstddef>
+	<cstdint>
+	<stddef.h>
+	<stdint.h>
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1740803329 c:\prac_c++\game_engine\vertexarray.h
+
+1743683753 source:c:\prac_c++\game_engine\vertexarray.cpp
+	"VertexArray.h"
+	"GL/glew.h"
+
+1741277029 c:\prac_c++\game_engine\shader.h
+	<GL/glew.h>
+	<string>
+	"Math.h"
+
+1741277213 source:c:\prac_c++\game_engine\shader.cpp
+	"Shader.h"
+	<SDL2/SDL.h>
+	<fstream>
+	<sstream>
+
+1741358416 source:c:\prac_c++\game_engine\texture.cpp
+	"Texture.h"
+	<SOIL.h>
+	<GL/glew.h>
+	<SDL2/SDL.h>
+
+1740810959 c:\prac_c++\game_engine\texture.h
+	<string>
+
+1215447208 c:\program files\codeblocks\mingw\include\soil.h
+
+1215447208 c:\prac_c++\game_engine\soil.h
+
+1743681330 source:c:\prac_c++\game_engine\planeactor.cpp
+	"PlaneActor.h"
+
+1743681508 c:\prac_c++\game_engine\planeactor.h
+	"Actor.h"
+	"Game.h"
+
+1741279416 source:c:\prac_c++\game_engine03\actor.cpp
+	"Actor.h"
+	"Game.h"
+	"Component.h"
+	<algorithm>
+
+1741361209 c:\prac_c++\game_engine03\actor.h
+	<Vector>
+	"Math.h"
+	<algorithm>
+	<SDL2/SDL.h>
+	<cstdint>
+
+1739469006 c:\prac_c++\game_engine03\math.h
+	<cmath>
+	<memory.h>
+	<limits>
+
+1743935658 c:\prac_c++\game_engine03\game.h
+	"SDL2/SDL.h"
+	<unordered_map>
+	<string>
+	<vector>
+	"Texture.h"
+	"TileMapComponent.h"
+
+1743768446 c:\prac_c++\game_engine03\texture.h
+	<string>
+
+1741277859 c:\prac_c++\game_engine03\component.h
+	<cstdint>
+
+1740067511 source:c:\prac_c++\game_engine03\aicomponent.cpp
+	"AIComponent.h"
+	"AIState.h"
+
+1740053050 c:\prac_c++\game_engine03\aicomponent.h
+	"Component.h"
+	<unordered_map>
+	<string>
+
+1740067653 c:\prac_c++\game_engine03\aistate.h
+	"Actor.h"
+
+1740067427 source:c:\prac_c++\game_engine03\aistate.cpp
+	"AIState.h"
+	"AIComponent.h"
+	<SDL2/SDL_log.h>
+
+1740811823 source:c:\prac_c++\game_engine03\animspritecomponent.cpp
+	"AnimSpriteComponent.h"
+	"Math.h"
+	"Texture.h"
+
+1740811982 c:\prac_c++\game_engine03\animspritecomponent.h
+	"SpriteComponent.h"
+	<vector>
+	<string>
+	<unordered_map>
+
+1740812184 c:\prac_c++\game_engine03\spritecomponent.h
+	"Component.h"
+	"SDL2/SDL.h"
+	"Shader.h"
+	"Texture.h"
+
+1747552013 c:\prac_c++\game_engine03\shader.h
+	<GL/glew.h>
+	<string>
+	"Math.h"
+
+1740811743 source:c:\prac_c++\game_engine03\asteroid.cpp
+	"Asteroid.h"
+	"Random.h"
+	"SpriteComponent.h"
+	"Game.h"
+	"MoveComponent.h"
+
+1739896599 c:\prac_c++\game_engine03\asteroid.h
+	"Actor.h"
+	"CircleComponent.h"
+
+1739896663 c:\prac_c++\game_engine03\circlecomponent.h
+	"Component.h"
+	"Math.h"
+
+1739885793 c:\prac_c++\game_engine03\random.h
+	<random>
+	"Math.h"
+
+1739884574 c:\prac_c++\game_engine03\movecomponent.h
+	"Component.h"
+
+1743683952 source:c:\prac_c++\game_engine03\bgspritecomponent.cpp
+	"BGSpriteComponent.h"
+	"Actor.h"
+	"Texture.h"
+
+1741527206 c:\prac_c++\game_engine03\bgspritecomponent.h
+	"SpriteComponent.h"
+	<vector>
+	"Math.h"
+	"Texture.h"
+
+1739896691 source:c:\prac_c++\game_engine03\circlecomponent.cpp
+	"CircleComponent.h"
+	"Actor.h"
+
+1739469292 source:c:\prac_c++\game_engine03\component.cpp
+	"Component.h"
+	"Actor.h"
+
+1747551029 source:c:\prac_c++\game_engine03\game.cpp
+	"Game.h"
+	<algorithm>
+	<SDL2/SDL_image.h>
+	<GL/glew.h>
+	<GL/gl.h>
+	"Actor.h"
+	"SpriteComponent.h"
+	"Ship.h"
+	"Shader.h"
+	"BGSpriteComponent.h"
+	"Asteroid.h"
+	"VertexArray.h"
+	"Texture.h"
+	"PlaneActor.h"
+	"TileMapComponent.h"
+	"CSVConverter.h"
+	<vector>
+	"CameraActor.h"
+
+1739896034 c:\prac_c++\game_engine03\ship.h
+	"Actor.h"
+
+1740803329 c:\prac_c++\game_engine03\vertexarray.h
+
+1743681508 c:\prac_c++\game_engine03\planeactor.h
+	"Actor.h"
+	"Game.h"
+
+1741539814 source:c:\prac_c++\game_engine03\inputcomponent.cpp
+	"InputComponent.h"
+
+1739892479 c:\prac_c++\game_engine03\inputcomponent.h
+	"MoveComponent.h"
+	"Actor.h"
+
+1739896748 source:c:\prac_c++\game_engine03\laser.cpp
+	"Laser.h"
+	"Actor.h"
+	"SpriteComponent.h"
+	"Game.h"
+	"MoveComponent.h"
+	"CircleComponent.h"
+	"Asteroid.h"
+
+1739896427 c:\prac_c++\game_engine03\laser.h
+	"Actor.h"
+
+1738169969 source:c:\prac_c++\game_engine03\main.cpp
+	<exception>
+	<string>
+	<iostream>
+	<SDL2/SDL.h>
+	"Game.h"
+
+1739469015 source:c:\prac_c++\game_engine03\math.cpp
+	"Math.h"
+
+1743686684 source:c:\prac_c++\game_engine03\movecomponent.cpp
+	"MoveComponent.h"
+	"Math.h"
+	"Component.h"
+	"Actor.h"
+
+1743681330 source:c:\prac_c++\game_engine03\planeactor.cpp
+	"PlaneActor.h"
+
+1739885807 source:c:\prac_c++\game_engine03\random.cpp
+	"Random.h"
+
+1747551982 source:c:\prac_c++\game_engine03\shader.cpp
+	"Shader.h"
+	<SDL2/SDL.h>
+	<fstream>
+	<sstream>
+
+1747551061 source:c:\prac_c++\game_engine03\ship.cpp
+	"Ship.h"
+	"AnimSpriteComponent.h"
+	"Game.h"
+	"InputComponent.h"
+	"TileMapComponent.h"
+	"Laser.h"
+
+1747552178 source:c:\prac_c++\game_engine03\spritecomponent.cpp
+	"SpriteComponent.h"
+	"Actor.h"
+	"Game.h"
+
+1741358416 source:c:\prac_c++\game_engine03\texture.cpp
+	"Texture.h"
+	<SOIL.h>
+	<GL/glew.h>
+	<SDL2/SDL.h>
+
+1743683753 source:c:\prac_c++\game_engine03\vertexarray.cpp
+	"VertexArray.h"
+	"GL/glew.h"
+
+1743862877 c:\prac_c++\game_engine03\tilemapcomponent.h
+	"SpriteComponent.h"
+	"Texture.h"
+	<vector>
+	<string>
+	"VertexArray.h"
+
+1747551786 source:c:\prac_c++\game_engine03\tilemapcomponent.cpp
+	"TileMapComponent.h"
+	"Actor.h"
+	"Game.h"
+	"Texture.h"
+	"CSVConverter.h"
+
+1743860787 source:c:\prac_c++\game_engine03\csvconverter.cpp
+
+1743860748 c:\prac_c++\game_engine03\csvconverter.h
+	"vector"
+	<vector>
+	<string>
+	<fstream>
+
+1743942140 source:c:\prac_c++\game_engine03\cameraactor.cpp
+	"CameraActor.h"
+	"Actor.h"
+
+1743942098 c:\prac_c++\game_engine03\cameraactor.h
+	"Component.h"
+	"Math.h"
+
+1763451689 source:c:\prac_c++\game_engine03 - copy\actor.cpp
+	"Actor.h"
+	"Game.h"
+	"Component.h"
+	<algorithm>
+
+1763451689 c:\prac_c++\game_engine03 - copy\actor.h
+	<Vector>
+	"Math.h"
+	<algorithm>
+	<SDL2/SDL.h>
+	<cstdint>
+	"InputComponent.h"
+
+1739469006 c:\prac_c++\game_engine03 - copy\math.h
+	<cmath>
+	<memory.h>
+	<limits>
+
+1769073532 c:\prac_c++\game_engine03 - copy\game.h
+	"SDL2/SDL.h"
+	<unordered_map>
+	<string>
+	<vector>
+	"Texture.h"
+	"TileMapComponent.h"
+	"InputSystem.h"
+
+1743768446 c:\prac_c++\game_engine03 - copy\texture.h
+	<string>
+
+1772444248 c:\prac_c++\game_engine03 - copy\tilemapcomponent.h
+	"SpriteComponent.h"
+	"Texture.h"
+	<vector>
+	<string>
+	"VertexArray.h"
+
+1765408203 c:\prac_c++\game_engine03 - copy\spritecomponent.h
+	"Component.h"
+	"SDL2/SDL.h"
+	"Shader.h"
+	"Texture.h"
+
+1763451761 c:\prac_c++\game_engine03 - copy\component.h
+	<cstdint>
+	"InputSystem.h"
+
+1747552013 c:\prac_c++\game_engine03 - copy\shader.h
+	<GL/glew.h>
+	<string>
+	"Math.h"
+
+1740803329 c:\prac_c++\game_engine03 - copy\vertexarray.h
+
+1740067511 source:c:\prac_c++\game_engine03 - copy\aicomponent.cpp
+	"AIComponent.h"
+	"AIState.h"
+
+1740053050 c:\prac_c++\game_engine03 - copy\aicomponent.h
+	"Component.h"
+	<unordered_map>
+	<string>
+
+1740067653 c:\prac_c++\game_engine03 - copy\aistate.h
+	"Actor.h"
+
+1740067427 source:c:\prac_c++\game_engine03 - copy\aistate.cpp
+	"AIState.h"
+	"AIComponent.h"
+	<SDL2/SDL_log.h>
+
+1765812896 source:c:\prac_c++\game_engine03 - copy\animspritecomponent.cpp
+	"AnimSpriteComponent.h"
+	"Math.h"
+	"Texture.h"
+	"MoveComponent.h"
+
+1765409606 c:\prac_c++\game_engine03 - copy\animspritecomponent.h
+	"SpriteComponent.h"
+	<vector>
+	<string>
+	<unordered_map>
+	"InputComponent.h"
+
+1756808304 source:c:\prac_c++\game_engine03 - copy\asteroid.cpp
+	"Asteroid.h"
+	"Random.h"
+	"SpriteComponent.h"
+	"Game.h"
+	"MoveComponent.h"
+
+1756808291 c:\prac_c++\game_engine03 - copy\asteroid.h
+	"Actor.h"
+	"CircleComponent.h"
+
+1739896663 c:\prac_c++\game_engine03 - copy\circlecomponent.h
+	"Component.h"
+	"Math.h"
+
+1739885793 c:\prac_c++\game_engine03 - copy\random.h
+	<random>
+	"Math.h"
+
+1765409398 c:\prac_c++\game_engine03 - copy\movecomponent.h
+	"Component.h"
+	"Renderer.h"
+
+1743683952 source:c:\prac_c++\game_engine03 - copy\bgspritecomponent.cpp
+	"BGSpriteComponent.h"
+	"Actor.h"
+	"Texture.h"
+
+1741527206 c:\prac_c++\game_engine03 - copy\bgspritecomponent.h
+	"SpriteComponent.h"
+	<vector>
+	"Math.h"
+	"Texture.h"
+
+1743942140 source:c:\prac_c++\game_engine03 - copy\cameraactor.cpp
+	"CameraActor.h"
+	"Actor.h"
+
+1743942098 c:\prac_c++\game_engine03 - copy\cameraactor.h
+	"Component.h"
+	"Math.h"
+
+1739896691 source:c:\prac_c++\game_engine03 - copy\circlecomponent.cpp
+	"CircleComponent.h"
+	"Actor.h"
+
+1739469292 source:c:\prac_c++\game_engine03 - copy\component.cpp
+	"Component.h"
+	"Actor.h"
+
+1743860787 source:c:\prac_c++\game_engine03 - copy\csvconverter.cpp
+
+1772726537 source:c:\prac_c++\game_engine03 - copy\inputcomponent.cpp
+	"InputComponent.h"
+	"InputSystem.h"
+
+1765409217 c:\prac_c++\game_engine03 - copy\inputcomponent.h
+	"MoveComponent.h"
+	"Actor.h"
+
+1756807865 source:c:\prac_c++\game_engine03 - copy\laser.cpp
+	"Laser.h"
+	"Actor.h"
+	"SpriteComponent.h"
+	"Game.h"
+	"MoveComponent.h"
+	"CircleComponent.h"
+	"Asteroid.h"
+
+1756807854 c:\prac_c++\game_engine03 - copy\laser.h
+	"Actor.h"
+
+1763295710 source:c:\prac_c++\game_engine03 - copy\main.cpp
+	<exception>
+	<string>
+	<iostream>
+	<SDL2/SDL.h>
+	"Game.h"
+
+1739469015 source:c:\prac_c++\game_engine03 - copy\math.cpp
+	"Math.h"
+
+1765408798 source:c:\prac_c++\game_engine03 - copy\movecomponent.cpp
+	"MoveComponent.h"
+	"Math.h"
+	"Component.h"
+	"Actor.h"
+
+1743681330 source:c:\prac_c++\game_engine03 - copy\planeactor.cpp
+	"PlaneActor.h"
+
+1743681508 c:\prac_c++\game_engine03 - copy\planeactor.h
+	"Actor.h"
+	"Game.h"
+
+1739885807 source:c:\prac_c++\game_engine03 - copy\random.cpp
+	"Random.h"
+
+1764630985 source:c:\prac_c++\game_engine03 - copy\shader.cpp
+	"Shader.h"
+	<SDL2/SDL.h>
+	<fstream>
+	<sstream>
+
+1772726680 source:c:\prac_c++\game_engine03 - copy\ship.cpp
+	"Ship.h"
+	"Game.h"
+	"InputComponent.h"
+	"BoxCollisionComponent.h"
+	"TileMapComponent.h"
+	"Laser.h"
+
+1769073935 c:\prac_c++\game_engine03 - copy\ship.h
+	"Actor.h"
+	"AnimSpriteComponent.h"
+	"BoxCollisionComponent.h"
+	"TileMapComponent.h"
+
+1765408553 source:c:\prac_c++\game_engine03 - copy\spritecomponent.cpp
+	"SpriteComponent.h"
+	"Actor.h"
+	"Game.h"
+	"Renderer.h"
+
+1763295604 source:c:\prac_c++\game_engine03 - copy\texture.cpp
+	"Texture.h"
+	<SOIL.h>
+	<GL/glew.h>
+	<SDL2/SDL.h>
+
+1772444248 source:c:\prac_c++\game_engine03 - copy\tilemapcomponent.cpp
+	"TileMapComponent.h"
+	"Actor.h"
+	"Game.h"
+	"Texture.h"
+	"CSVConverter.h"
+
+1743860748 c:\prac_c++\game_engine03 - copy\csvconverter.h
+	"vector"
+	<vector>
+	<string>
+	<fstream>
+
+1743683753 source:c:\prac_c++\game_engine03 - copy\vertexarray.cpp
+	"VertexArray.h"
+	"GL/glew.h"
+
+1772444353 source:c:\prac_c++\game_engine03 - copy\game.cpp
+	"Game.h"
+	<algorithm>
+	<SDL2/SDL_image.h>
+	<GL/glew.h>
+	<GL/gl.h>
+	"Actor.h"
+	"SpriteComponent.h"
+	"Ship.h"
+	"Shader.h"
+	"BGSpriteComponent.h"
+	"Asteroid.h"
+	"VertexArray.h"
+	"Texture.h"
+	"PlaneActor.h"
+	"TileMapComponent.h"
+	"TiledMapLoader.h"
+	"CSVConverter.h"
+	<vector>
+	"CameraActor.h"
+	"Renderer.h"
+
+1756811606 c:\prac_c++\game_engine03 - copy\renderer.h
+	<string>
+	<vector>
+	<unordered_map>
+	<SDL2/SDL.h>
+	"Math.h"
+
+1756812321 source:c:\prac_c++\game_engine03 - copy\renderer.cpp
+	"Renderer.h"
+	"Texture.h"
+	<algorithm>
+	"Shader.h"
+	"VertexArray.h"
+	"SpriteComponent.h"
+	<GL/glew.h>
+
+1763449490 c:\prac_c++\game_engine03 - copy\inputsystem.h
+	"SDL2/SDL.h"
+
+1763451915 source:c:\prac_c++\game_engine03 - copy\inputsytem.cpp
+	"InputSystem.h"
+	<SDL2/SDL.h>
+	<cstring>
+
+1769073988 c:\prac_c++\game_engine03 - copy\boxcollisioncomponent.h
+	"Component.h"
+	"math.h"
+
+1769073609 source:c:\prac_c++\game_engine03 - copy\boxcollisioncomponent.cpp
+	"BoxCollisionComponent.h"
+	"Actor.h"
+
+1772390310 source:c:\prac_c++\game_engine03 - copy\tiledmaploader.cpp
+	"TiledMapLoader.h"
+	"Game.h"
+	"Actor.h"
+	"SpriteComponent.h"
+	"Renderer.h"
+	"Texture.h"
+	<rapidjson/document.h>
+	<rapidjson/filereadstream.h>
+	<cstdio>
+
+1769851607 c:\prac_c++\game_engine03 - copy\tiledmaploader.h
+	<string>
+
+1472111945 c:\program files\codeblocks\mingw\include\rapidjson\document.h
+	"reader.h"
+	"internal/meta.h"
+	"internal/strfunc.h"
+	"memorystream.h"
+	"encodedstream.h"
+	<new>
+	<limits>
+	<iterator>
+	<utility>
+
+1472111945 c:\program files\codeblocks\mingw\include\rapidjson\reader.h
+	"allocators.h"
+	"stream.h"
+	"encodedstream.h"
+	"internal/meta.h"
+	"internal/stack.h"
+	"internal/strtod.h"
+	<limits>
+	<intrin.h>
+	<nmmintrin.h>
+	<emmintrin.h>
+	<stdexcept>
+	"rapidjson/error/error.h"
+	"rapidjson/reader.h"
+	"error/error.h"
+
+1472111945 c:\program files\codeblocks\mingw\include\rapidjson\allocators.h
+	"rapidjson.h"
+
+1472111945 c:\program files\codeblocks\mingw\include\rapidjson\rapidjson.h
+	<cstdlib>
+	<cstring>
+	"rapidjson/..."
+	<string>
+	"msinttypes/stdint.h"
+	"msinttypes/inttypes.h"
+	<stdint.h>
+	<inttypes.h>
+	<endian.h>
+	"rapidjson/..."
+	<cassert>
+
+1472111945 c:\program files\codeblocks\mingw\include\rapidjson\msinttypes\stdint.h
+	<stdint.h>
+	<limits.h>
+	<wchar.h>
+
+1472111945 c:\program files\codeblocks\mingw\include\rapidjson\msinttypes\inttypes.h
+	"stdint.h"
+	<inttypes.h>
+
+1472111945 c:\program files\codeblocks\mingw\include\rapidjson\stream.h
+	"rapidjson.h"
+	"encodings.h"
+
+1472111945 c:\program files\codeblocks\mingw\include\rapidjson\encodings.h
+	"rapidjson.h"
+
+1472111945 c:\program files\codeblocks\mingw\include\rapidjson\encodedstream.h
+	"stream.h"
+	"memorystream.h"
+
+1472111945 c:\program files\codeblocks\mingw\include\rapidjson\memorystream.h
+	"stream.h"
+
+1472111945 c:\program files\codeblocks\mingw\include\rapidjson\internal\meta.h
+	"../rapidjson.h"
+	<type_traits>
+
+1472111945 c:\program files\codeblocks\mingw\include\rapidjson\internal\stack.h
+	"../allocators.h"
+	"swap.h"
+
+1472111945 c:\program files\codeblocks\mingw\include\rapidjson\internal\swap.h
+	"../rapidjson.h"
+
+1472111945 c:\program files\codeblocks\mingw\include\rapidjson\internal\strtod.h
+	"ieee754.h"
+	"biginteger.h"
+	"diyfp.h"
+	"pow10.h"
+
+1472111945 c:\program files\codeblocks\mingw\include\rapidjson\internal\ieee754.h
+	"../rapidjson.h"
+
+1472111945 c:\program files\codeblocks\mingw\include\rapidjson\internal\biginteger.h
+	"../rapidjson.h"
+	<intrin.h>
+
+1472111945 c:\program files\codeblocks\mingw\include\rapidjson\internal\diyfp.h
+	"../rapidjson.h"
+	<intrin.h>
+
+1472111945 c:\program files\codeblocks\mingw\include\rapidjson\internal\pow10.h
+	"../rapidjson.h"
+
+1472111945 c:\program files\codeblocks\mingw\include\rapidjson\error\error.h
+	"../rapidjson.h"
+
+1472111945 c:\program files\codeblocks\mingw\include\rapidjson\internal\strfunc.h
+	"../stream.h"
+
+1472111945 c:\program files\codeblocks\mingw\include\rapidjson\filereadstream.h
+	"stream.h"
+	<cstdio>
+
+1763451689 source:c:\prac_c++\game_engine03 - copy - copy (3)\actor.cpp
+	"Actor.h"
+	"Game.h"
+	"Component.h"
+	<algorithm>
+
+1763451689 c:\prac_c++\game_engine03 - copy - copy (3)\actor.h
+	<Vector>
+	"Math.h"
+	<algorithm>
+	<SDL2/SDL.h>
+	<cstdint>
+	"InputComponent.h"
+
+1739469006 c:\prac_c++\game_engine03 - copy - copy (3)\math.h
+	<cmath>
+	<memory.h>
+	<limits>
+
+1765409217 c:\prac_c++\game_engine03 - copy - copy (3)\inputcomponent.h
+	"MoveComponent.h"
+	"Actor.h"
+
+1765409398 c:\prac_c++\game_engine03 - copy - copy (3)\movecomponent.h
+	"Component.h"
+	"Renderer.h"
+
+1763451761 c:\prac_c++\game_engine03 - copy - copy (3)\component.h
+	<cstdint>
+	"InputSystem.h"
+
+1763449490 c:\prac_c++\game_engine03 - copy - copy (3)\inputsystem.h
+	"SDL2/SDL.h"
+
+1775646281 c:\prac_c++\game_engine03 - copy - copy (3)\renderer.h
+	<string>
+	<vector>
+	<unordered_map>
+	<SDL2/SDL.h>
+	"Math.h"
+
+1773224621 c:\prac_c++\game_engine03 - copy - copy (3)\game.h
+	"SDL2/SDL.h"
+	<unordered_map>
+	<string>
+	<vector>
+	"Texture.h"
+	"TileMapComponent.h"
+	"InputSystem.h"
+	"MinerActor.h"
+	"HUDManager.h"
+	"GoldmineActor.h"
+	"BankActor.h"
+	"ShackActor.h"
+	"SaloonActor.h"
+
+1743768446 c:\prac_c++\game_engine03 - copy - copy (3)\texture.h
+	<string>
+
+1772444248 c:\prac_c++\game_engine03 - copy - copy (3)\tilemapcomponent.h
+	"SpriteComponent.h"
+	"Texture.h"
+	<vector>
+	<string>
+	"VertexArray.h"
+
+1765408203 c:\prac_c++\game_engine03 - copy - copy (3)\spritecomponent.h
+	"Component.h"
+	"SDL2/SDL.h"
+	"Shader.h"
+	"Texture.h"
+
+1747552013 c:\prac_c++\game_engine03 - copy - copy (3)\shader.h
+	<GL/glew.h>
+	<string>
+	"Math.h"
+
+1740803329 c:\prac_c++\game_engine03 - copy - copy (3)\vertexarray.h
+
+1740067511 source:c:\prac_c++\game_engine03 - copy - copy (3)\aicomponent.cpp
+	"AIComponent.h"
+	"AIState.h"
+
+1740053050 c:\prac_c++\game_engine03 - copy - copy (3)\aicomponent.h
+	"Component.h"
+	<unordered_map>
+	<string>
+
+1740067653 c:\prac_c++\game_engine03 - copy - copy (3)\aistate.h
+	"Actor.h"
+
+1740067427 source:c:\prac_c++\game_engine03 - copy - copy (3)\aistate.cpp
+	"AIState.h"
+	"AIComponent.h"
+	<SDL2/SDL_log.h>
+
+1765812896 source:c:\prac_c++\game_engine03 - copy - copy (3)\animspritecomponent.cpp
+	"AnimSpriteComponent.h"
+	"Math.h"
+	"Texture.h"
+	"MoveComponent.h"
+
+1765409606 c:\prac_c++\game_engine03 - copy - copy (3)\animspritecomponent.h
+	"SpriteComponent.h"
+	<vector>
+	<string>
+	<unordered_map>
+	"InputComponent.h"
+
+1743683952 source:c:\prac_c++\game_engine03 - copy - copy (3)\bgspritecomponent.cpp
+	"BGSpriteComponent.h"
+	"Actor.h"
+	"Texture.h"
+
+1741527206 c:\prac_c++\game_engine03 - copy - copy (3)\bgspritecomponent.h
+	"SpriteComponent.h"
+	<vector>
+	"Math.h"
+	"Texture.h"
+
+1769073609 source:c:\prac_c++\game_engine03 - copy - copy (3)\boxcollisioncomponent.cpp
+	"BoxCollisionComponent.h"
+	"Actor.h"
+
+1769073988 c:\prac_c++\game_engine03 - copy - copy (3)\boxcollisioncomponent.h
+	"Component.h"
+	"math.h"
+
+1743942140 source:c:\prac_c++\game_engine03 - copy - copy (3)\cameraactor.cpp
+	"CameraActor.h"
+	"Actor.h"
+
+1743942098 c:\prac_c++\game_engine03 - copy - copy (3)\cameraactor.h
+	"Component.h"
+	"Math.h"
+
+1739896691 source:c:\prac_c++\game_engine03 - copy - copy (3)\circlecomponent.cpp
+	"CircleComponent.h"
+	"Actor.h"
+
+1739896663 c:\prac_c++\game_engine03 - copy - copy (3)\circlecomponent.h
+	"Component.h"
+	"Math.h"
+
+1739469292 source:c:\prac_c++\game_engine03 - copy - copy (3)\component.cpp
+	"Component.h"
+	"Actor.h"
+
+1743860787 source:c:\prac_c++\game_engine03 - copy - copy (3)\csvconverter.cpp
+
+1772726537 source:c:\prac_c++\game_engine03 - copy - copy (3)\inputcomponent.cpp
+	"InputComponent.h"
+	"InputSystem.h"
+
+1763451915 source:c:\prac_c++\game_engine03 - copy - copy (3)\inputsytem.cpp
+	"InputSystem.h"
+	<SDL2/SDL.h>
+	<cstring>
+
+1763295710 source:c:\prac_c++\game_engine03 - copy - copy (3)\main.cpp
+	<exception>
+	<string>
+	<iostream>
+	<SDL2/SDL.h>
+	"Game.h"
+
+1739469015 source:c:\prac_c++\game_engine03 - copy - copy (3)\math.cpp
+	"Math.h"
+
+1765408798 source:c:\prac_c++\game_engine03 - copy - copy (3)\movecomponent.cpp
+	"MoveComponent.h"
+	"Math.h"
+	"Component.h"
+	"Actor.h"
+
+1739885807 source:c:\prac_c++\game_engine03 - copy - copy (3)\random.cpp
+	"Random.h"
+
+1739885793 c:\prac_c++\game_engine03 - copy - copy (3)\random.h
+	<random>
+	"Math.h"
+
+1775647147 source:c:\prac_c++\game_engine03 - copy - copy (3)\renderer.cpp
+	"Renderer.h"
+	"Texture.h"
+	<algorithm>
+	"Shader.h"
+	"VertexArray.h"
+	"SpriteComponent.h"
+	<GL/glew.h>
+
+1764630985 source:c:\prac_c++\game_engine03 - copy - copy (3)\shader.cpp
+	"Shader.h"
+	<SDL2/SDL.h>
+	<fstream>
+	<sstream>
+
+1773063374 source:c:\prac_c++\game_engine03 - copy - copy (3)\ship.cpp
+	"Ship.h"
+	"Game.h"
+	"InputComponent.h"
+	"BoxCollisionComponent.h"
+	"TileMapComponent.h"
+
+1769073935 c:\prac_c++\game_engine03 - copy - copy (3)\ship.h
+	"Actor.h"
+	"AnimSpriteComponent.h"
+	"BoxCollisionComponent.h"
+	"TileMapComponent.h"
+
+1765408553 source:c:\prac_c++\game_engine03 - copy - copy (3)\spritecomponent.cpp
+	"SpriteComponent.h"
+	"Actor.h"
+	"Game.h"
+	"Renderer.h"
+
+1763295604 source:c:\prac_c++\game_engine03 - copy - copy (3)\texture.cpp
+	"Texture.h"
+	<SOIL.h>
+	<GL/glew.h>
+	<SDL2/SDL.h>
+
+1772444248 source:c:\prac_c++\game_engine03 - copy - copy (3)\tilemapcomponent.cpp
+	"TileMapComponent.h"
+	"Actor.h"
+	"Game.h"
+	"Texture.h"
+	"CSVConverter.h"
+
+1743860748 c:\prac_c++\game_engine03 - copy - copy (3)\csvconverter.h
+	"vector"
+	<vector>
+	<string>
+	<fstream>
+
+1743683753 source:c:\prac_c++\game_engine03 - copy - copy (3)\vertexarray.cpp
+	"VertexArray.h"
+	"GL/glew.h"
+
+1775645376 c:\prac_c++\game_engine03 - copy - copy (3)\mineractor.h
+	"Actor.h"
+	"QLearner.h"
+	<string>
+	"AnimSpriteComponent.h"
+	"InputComponent.h"
+	<map>
+	<vector>
+	<random>
+	<algorithm>
+
+1773055456 c:\prac_c++\game_engine03 - copy - copy (3)\goldmineactor.h
+	"Actor.h"
+
+1773055456 c:\prac_c++\game_engine03 - copy - copy (3)\bankactor.h
+	"Actor.h"
+
+1773055456 c:\prac_c++\game_engine03 - copy - copy (3)\shackactor.h
+	"Actor.h"
+
+1773055456 c:\prac_c++\game_engine03 - copy - copy (3)\saloonactor.h
+	"Actor.h"
+
+1773050366 c:\prac_c++\game_engine03 - copy - copy (3)\qlearner.h
+	<vector>
+	<map>
+	<tuple>
+	<random>
+	<algorithm>
+	<fstream>
+	<iostream>
+
+1773063927 source:c:\prac_c++\game_engine03 - copy - copy (3)\bankactor.cpp
+	"BankActor.h"
+	"Game.h"
+	"Renderer.h"
+	"SpriteComponent.h"
+
+1775647974 source:c:\prac_c++\game_engine03 - copy - copy (3)\game.cpp
+	"Game.h"
+	<algorithm>
+	<SDL2/SDL_image.h>
+	<GL/glew.h>
+	<GL/gl.h>
+	"Actor.h"
+	"SpriteComponent.h"
+	"Ship.h"
+	"Shader.h"
+	"BGSpriteComponent.h"
+	"Asteroid.h"
+	"VertexArray.h"
+	"Texture.h"
+	"TileMapComponent.h"
+	"TiledMapLoader.h"
+	"CSVConverter.h"
+	<vector>
+	"CameraActor.h"
+	"Renderer.h"
+	"GoldmineActor.h"
+	"BankActor.h"
+	"ShackActor.h"
+	"SaloonActor.h"
+
+1756808291 c:\prac_c++\game_engine03 - copy - copy (3)\asteroid.h
+	"Actor.h"
+	"CircleComponent.h"
+
+1769851607 c:\prac_c++\game_engine03 - copy - copy (3)\tiledmaploader.h
+	<string>
+
+1773063927 source:c:\prac_c++\game_engine03 - copy - copy (3)\goldmineactor.cpp
+	"GoldmineActor.h"
+	"Game.h"
+	"Renderer.h"
+	"SpriteComponent.h"
+
+1773050366 source:c:\prac_c++\game_engine03 - copy - copy (3)\qlearner.cpp
+	"QLearner.h"
+
+1775645433 source:c:\prac_c++\game_engine03 - copy - copy (3)\mineractor.cpp
+	"MinerActor.h"
+	"Game.h"
+	"MoveComponent.h"
+	"SpriteComponent.h"
+	"Renderer.h"
+	<SDL2/SDL.h>
+	<cmath>
+	<algorithm>
+
+1775475052 source:c:\prac_c++\game_engine03 - copy - copy (3)\saloonactor.cpp
+	"SaloonActor.h"
+	"Game.h"
+	"Renderer.h"
+	"SpriteComponent.h"
+
+1773063927 source:c:\prac_c++\game_engine03 - copy - copy (3)\shackactor.cpp
+	"ShackActor.h"
+	"Game.h"
+	"Renderer.h"
+	"SpriteComponent.h"
+
+1773222019 source:c:\prac_c++\game_engine03 - copy - copy (3)\hudmanager.cpp
+	"HUDManager.h"
+	<algorithm>
+	<sstream>
+	<iomanip>
+
+1773210338 c:\prac_c++\game_engine03 - copy - copy (3)\hudmanager.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<string>
+	<deque>
+
+1735825446 c:\sdl2-2.30.11\i686-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1734463625 c:\program files\codeblocks\mingw\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_guid.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"close_code.h"
+
+1735746525 c:\program files\codeblocks\mingw\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_windows.h"
+	"SDL_config_winrt.h"
+	"SDL_config_wingdk.h"
+	"SDL_config_xbox.h"
+	"SDL_config_macosx.h"
+	"SDL_config_iphoneos.h"
+	"SDL_config_android.h"
+	"SDL_config_os2.h"
+	"SDL_config_emscripten.h"
+	"SDL_config_ngage.h"
+	"SDL_config_minimal.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_platform.h
+	<AvailabilityMacros.h>
+	<TargetConditionals.h>
+	<TargetConditionals.h>
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\begin_code.h
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\close_code.h
+
+1735746525 c:\program files\codeblocks\mingw\include\sdl2\sdl_config_windows.h
+	"SDL_platform.h"
+	<winsdkver.h>
+	<sdkddkver.h>
+
+1735746525 c:\program files\codeblocks\mingw\include\sdl2\sdl_config_winrt.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1735746525 c:\program files\codeblocks\mingw\include\sdl2\sdl_config_wingdk.h
+	"SDL_platform.h"
+
+1735746525 c:\program files\codeblocks\mingw\include\sdl2\sdl_config_xbox.h
+	"SDL_platform.h"
+
+1735746525 c:\program files\codeblocks\mingw\include\sdl2\sdl_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1735746525 c:\program files\codeblocks\mingw\include\sdl2\sdl_config_iphoneos.h
+	"SDL_platform.h"
+
+1735746525 c:\program files\codeblocks\mingw\include\sdl2\sdl_config_android.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1735746525 c:\program files\codeblocks\mingw\include\sdl2\sdl_config_os2.h
+	"SDL_platform.h"
+
+1735746525 c:\program files\codeblocks\mingw\include\sdl2\sdl_config_emscripten.h
+	"SDL_platform.h"
+
+1735746525 c:\program files\codeblocks\mingw\include\sdl2\sdl_config_ngage.h
+	"SDL_platform.h"
+
+1735746525 c:\program files\codeblocks\mingw\include\sdl2\sdl_config_minimal.h
+	"SDL_platform.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_assert.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<lsxintrin.h>
+	<lasxintrin.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_guid.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_guid.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1735757426 c:\program files\codeblocks\mingw\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1705848875 c:\sdl2-2.30.11\x86_64-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1763451689 source:c:\prac_c++\game_engine03 -(student agent)\actor.cpp
+	"Actor.h"
+	"Game.h"
+	"Component.h"
+	<algorithm>
+
+1763451689 c:\prac_c++\game_engine03 -(student agent)\actor.h
+	<Vector>
+	"Math.h"
+	<algorithm>
+	<SDL2/SDL.h>
+	<cstdint>
+	"InputComponent.h"
+
+1779178362 c:\prac_c++\game_engine03 -(student agent)\math.h
+	<cmath>
+	<memory.h>
+	<limits>
+
+1777910448 c:\prac_c++\game_engine03 -(student agent)\inputcomponent.h
+	"MoveComponent.h"
+	"Actor.h"
+
+1765409398 c:\prac_c++\game_engine03 -(student agent)\movecomponent.h
+	"Component.h"
+	"Renderer.h"
+
+1763451761 c:\prac_c++\game_engine03 -(student agent)\component.h
+	<cstdint>
+	"InputSystem.h"
+
+1763449490 c:\prac_c++\game_engine03 -(student agent)\inputsystem.h
+	"SDL2/SDL.h"
+
+1775646281 c:\prac_c++\game_engine03 -(student agent)\renderer.h
+	<string>
+	<vector>
+	<unordered_map>
+	<SDL2/SDL.h>
+	"Math.h"
+
+1779301208 c:\prac_c++\game_engine03 -(student agent)\game.h
+	"SDL2/SDL.h"
+	<unordered_map>
+	<string>
+	<vector>
+	"Texture.h"
+	"TileMapComponent.h"
+	"InputSystem.h"
+	"HUDManager.h"
+	"StudentActor.h"
+
+1743768446 c:\prac_c++\game_engine03 -(student agent)\texture.h
+	<string>
+
+1778616015 c:\prac_c++\game_engine03 -(student agent)\tilemapcomponent.h
+	"SpriteComponent.h"
+	"Texture.h"
+	<vector>
+	<string>
+	"VertexArray.h"
+
+1778681564 c:\prac_c++\game_engine03 -(student agent)\spritecomponent.h
+	"Component.h"
+	"SDL2/SDL.h"
+	"Shader.h"
+	"Texture.h"
+
+1747552013 c:\prac_c++\game_engine03 -(student agent)\shader.h
+	<GL/glew.h>
+	<string>
+	"Math.h"
+
+1740803329 c:\prac_c++\game_engine03 -(student agent)\vertexarray.h
+
+1775645376 c:\prac_c++\game_engine03 -(student agent)\mineractor.h
+	"Actor.h"
+	"QLearner.h"
+	<string>
+	"AnimSpriteComponent.h"
+	"InputComponent.h"
+	<map>
+	<vector>
+	<random>
+	<algorithm>
+
+1779332030 c:\prac_c++\game_engine03 -(student agent)\qlearner.h
+	"StudentQState.h"
+	<string>
+
+1779320394 c:\prac_c++\game_engine03 -(student agent)\studentqstate.h
+	<string>
+
+1778688816 c:\prac_c++\game_engine03 -(student agent)\animspritecomponent.h
+	"SpriteComponent.h"
+	<vector>
+	<string>
+	<unordered_map>
+	"InputComponent.h"
+
+1778690427 c:\prac_c++\game_engine03 -(student agent)\hudmanager.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<GL/glew.h>
+	"Shader.h"
+	"VertexArray.h"
+	"Math.h"
+	<string>
+	<deque>
+	<unordered_map>
+
+1773055456 c:\prac_c++\game_engine03 -(student agent)\goldmineactor.h
+	"Actor.h"
+
+1773055456 c:\prac_c++\game_engine03 -(student agent)\bankactor.h
+	"Actor.h"
+
+1773055456 c:\prac_c++\game_engine03 -(student agent)\shackactor.h
+	"Actor.h"
+
+1773055456 c:\prac_c++\game_engine03 -(student agent)\saloonactor.h
+	"Actor.h"
+
+1740067511 source:c:\prac_c++\game_engine03 -(student agent)\aicomponent.cpp
+	"AIComponent.h"
+	"AIState.h"
+
+1740053050 c:\prac_c++\game_engine03 -(student agent)\aicomponent.h
+	"Component.h"
+	<unordered_map>
+	<string>
+
+1740067653 c:\prac_c++\game_engine03 -(student agent)\aistate.h
+	"Actor.h"
+
+1740067427 source:c:\prac_c++\game_engine03 -(student agent)\aistate.cpp
+	"AIState.h"
+	"AIComponent.h"
+	<SDL2/SDL_log.h>
+
+1779178045 source:c:\prac_c++\game_engine03 -(student agent)\animspritecomponent.cpp
+	"AnimSpriteComponent.h"
+	"Math.h"
+	"Texture.h"
+	"MoveComponent.h"
+
+1743683952 source:c:\prac_c++\game_engine03 -(student agent)\bgspritecomponent.cpp
+	"BGSpriteComponent.h"
+	"Actor.h"
+	"Texture.h"
+
+1741527206 c:\prac_c++\game_engine03 -(student agent)\bgspritecomponent.h
+	"SpriteComponent.h"
+	<vector>
+	"Math.h"
+	"Texture.h"
+
+1769073609 source:c:\prac_c++\game_engine03 -(student agent)\boxcollisioncomponent.cpp
+	"BoxCollisionComponent.h"
+	"Actor.h"
+
+1769073988 c:\prac_c++\game_engine03 -(student agent)\boxcollisioncomponent.h
+	"Component.h"
+	"math.h"
+
+1778690836 source:c:\prac_c++\game_engine03 -(student agent)\cameraactor.cpp
+	"CameraActor.h"
+	"Actor.h"
+
+1743942098 c:\prac_c++\game_engine03 -(student agent)\cameraactor.h
+	"Component.h"
+	"Math.h"
+
+1739896691 source:c:\prac_c++\game_engine03 -(student agent)\circlecomponent.cpp
+	"CircleComponent.h"
+	"Actor.h"
+
+1779178398 c:\prac_c++\game_engine03 -(student agent)\circlecomponent.h
+	"Component.h"
+	"Math.h"
+
+1739469292 source:c:\prac_c++\game_engine03 -(student agent)\component.cpp
+	"Component.h"
+	"Actor.h"
+
+1743860787 source:c:\prac_c++\game_engine03 -(student agent)\csvconverter.cpp
+
+1779366387 source:c:\prac_c++\game_engine03 -(student agent)\game.cpp
+	"Game.h"
+	<algorithm>
+	<SDL2/SDL_image.h>
+	<GL/glew.h>
+	<GL/gl.h>
+	"Actor.h"
+	"SpriteComponent.h"
+	"Ship.h"
+	"Shader.h"
+	"NPCActor.h"
+	"PigeonActor.h"
+	"BGSpriteComponent.h"
+	"VertexArray.h"
+	"Texture.h"
+	"TileMapComponent.h"
+	"TiledMapLoader.h"
+	"CSVConverter.h"
+	<vector>
+	"CameraActor.h"
+	"Renderer.h"
+	"StudentActor.h"
+	"StudentQState.h"
+	"BirdActor.h"
+
+1769073935 c:\prac_c++\game_engine03 -(student agent)\ship.h
+	"Actor.h"
+	"AnimSpriteComponent.h"
+	"BoxCollisionComponent.h"
+	"TileMapComponent.h"
+
+1756808291 c:\prac_c++\game_engine03 -(student agent)\asteroid.h
+	"Actor.h"
+	"CircleComponent.h"
+
+1769851607 c:\prac_c++\game_engine03 -(student agent)\tiledmaploader.h
+	<string>
+
+1743860748 c:\prac_c++\game_engine03 -(student agent)\csvconverter.h
+	"vector"
+	<vector>
+	<string>
+	<fstream>
+
+1776704384 source:c:\prac_c++\game_engine03 -(student agent)\goldmineactor.cpp
+	"GoldmineActor.h"
+	"Game.h"
+	"Renderer.h"
+	"SpriteComponent.h"
+
+1778690720 source:c:\prac_c++\game_engine03 -(student agent)\hudmanager.cpp
+	"HUDManager.h"
+	<algorithm>
+	<sstream>
+	<iomanip>
+	<cmath>
+
+1772726537 source:c:\prac_c++\game_engine03 -(student agent)\inputcomponent.cpp
+	"InputComponent.h"
+	"InputSystem.h"
+
+1763451915 source:c:\prac_c++\game_engine03 -(student agent)\inputsytem.cpp
+	"InputSystem.h"
+	<SDL2/SDL.h>
+	<cstring>
+
+1763295710 source:c:\prac_c++\game_engine03 -(student agent)\main.cpp
+	<exception>
+	<string>
+	<iostream>
+	<SDL2/SDL.h>
+	"Game.h"
+
+1779178367 source:c:\prac_c++\game_engine03 -(student agent)\math.cpp
+	"Math.h"
+
+1765408798 source:c:\prac_c++\game_engine03 -(student agent)\movecomponent.cpp
+	"MoveComponent.h"
+	"Math.h"
+	"Component.h"
+	"Actor.h"
+
+1779178342 source:c:\prac_c++\game_engine03 -(student agent)\random.cpp
+	"Random.h"
+
+1779178349 c:\prac_c++\game_engine03 -(student agent)\random.h
+	<random>
+	"Math.h"
+
+1778579150 source:c:\prac_c++\game_engine03 -(student agent)\renderer.cpp
+	"Renderer.h"
+	"Texture.h"
+	<algorithm>
+	"Shader.h"
+	"VertexArray.h"
+	"SpriteComponent.h"
+	<GL/glew.h>
+
+1778757981 source:c:\prac_c++\game_engine03 -(student agent)\shader.cpp
+	"Shader.h"
+	<SDL2/SDL.h>
+	<fstream>
+	<sstream>
+
+1773063374 source:c:\prac_c++\game_engine03 -(student agent)\ship.cpp
+	"Ship.h"
+	"Game.h"
+	"InputComponent.h"
+	"BoxCollisionComponent.h"
+	"TileMapComponent.h"
+
+1779178115 source:c:\prac_c++\game_engine03 -(student agent)\spritecomponent.cpp
+	"SpriteComponent.h"
+	"Actor.h"
+	"Game.h"
+	"Renderer.h"
+
+1779177803 source:c:\prac_c++\game_engine03 -(student agent)\texture.cpp
+	"Texture.h"
+	<SOIL.h>
+	<GL/glew.h>
+	<SDL2/SDL.h>
+
+1772444248 source:c:\prac_c++\game_engine03 -(student agent)\tilemapcomponent.cpp
+	"TileMapComponent.h"
+	"Actor.h"
+	"Game.h"
+	"Texture.h"
+	"CSVConverter.h"
+
+1743683753 source:c:\prac_c++\game_engine03 -(student agent)\vertexarray.cpp
+	"VertexArray.h"
+	"GL/glew.h"
+
+1778688546 source:c:\prac_c++\game_engine03 -(student agent)\qlearner.cpp
+	"QLearner.h"
+	<SDL2/SDL.h>
+	<algorithm>
+	<cstdlib>
+	<fstream>
+	<sstream>
+	<vector>
+
+1779115378 c:\prac_c++\game_engine03 -(student agent)\studentactor.h
+	"Actor.h"
+	"Math.h"
+	"StudentQState.h"
+	"QLearner.h"
+	"PathFinder.h"
+	<string>
+	<unordered_map>
+	<deque>
+	<vector>
+
+1779332527 source:c:\prac_c++\game_engine03 -(student agent)\studentactor.cpp
+	"StudentActor.h"
+	"StudentStates.h"
+	"Game.h"
+	"Renderer.h"
+	"SpriteComponent.h"
+	"AnimSpriteComponent.h"
+	"Texture.h"
+	<SDL2/SDL.h>
+	<algorithm>
+	<sstream>
+	<cmath>
+
+1778592964 c:\prac_c++\game_engine03 -(student agent)\studentstates.h
+	"StudentFSMState.h"
+
+1778592942 c:\prac_c++\game_engine03 -(student agent)\studentfsmstate.h
+
+1779181997 source:c:\prac_c++\game_engine03 -(student agent)\studentstates.cpp
+	"StudentStates.h"
+	"StudentActor.h"
+	"QLearner.h"
+	"StudentQState.h"
+	<algorithm>
+	<string>
+
+1779320880 source:c:\prac_c++\game_engine03 -(student agent)\pathfinder.cpp
+	"PathFinder.h"
+	<SDL2/SDL.h>
+
+1778688727 c:\prac_c++\game_engine03 -(student agent)\pathfinder.h
+	"Math.h"
+	"TileMapComponent.h"
+	<vector>
+	<queue>
+	<unordered_map>
+	<cmath>
+	<algorithm>
+
+1779098293 source:c:\prac_c++\game_engine03 -(student agent)\npcactor.cpp
+	"NPCActor.h"
+	"AnimSpriteComponent.h"
+	"Game.h"
+	"TileMapComponent.h"
+	<SDL2/SDL.h>
+	<cstdlib>
+	<cmath>
+
+1779093667 c:\prac_c++\game_engine03 -(student agent)\npcactor.h
+	"Actor.h"
+	"Math.h"
+	"PathFinder.h"
+	<vector>
+	<string>
+
+1779093775 source:c:\prac_c++\game_engine03 -(student agent)\birdactor.cpp
+	"BirdActor.h"
+	"AnimSpriteComponent.h"
+	"Game.h"
+	"Renderer.h"
+	"Texture.h"
+	<SDL2/SDL.h>
+	<cmath>
+	<cstdlib>
+
+1778781091 c:\prac_c++\game_engine03 -(student agent)\birdactor.h
+	"Actor.h"
+	"Math.h"
+	<vector>
+
+1779093753 source:c:\prac_c++\game_engine03 -(student agent)\pigeonactor.cpp
+	"PigeonActor.h"
+	"AnimSpriteComponent.h"
+	"Game.h"
+	"Texture.h"
+	<SDL2/SDL.h>
+	<cmath>
+	<cstdlib>
+
+1778794898 c:\prac_c++\game_engine03 -(student agent)\pigeonactor.h
+	"Actor.h"
+	"Math.h"
+	<vector>
+

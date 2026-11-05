@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="GAME_Engine" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/GAME_Engine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="../../Program Files/CodeBlocks/MinGW/lib/libSOIL.a" />
+					<Add library="C:/SDL2-2.30.11/i686-w64-mingw32/lib/libSDL2_ttf.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/GAME_Engine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="../../Program Files/CodeBlocks/MinGW/lib/libSOIL.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/SDL2-2.30.11/x86_64-w64-mingw32/include" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/include" />
+		</Compiler>
+		<Linker>
+			<Add library="../../Program Files/CodeBlocks/MinGW/lib/libSOIL.a" />
+			<Add library="../../Program Files/CodeBlocks/MinGW/lib/libSOIL.lib" />
+			<Add library="mingw32" />
+			<Add library="SDL2main" />
+			<Add library="C:/SDL2-2.30.11/x86_64-w64-mingw32/lib/libSDL2_ttf.a" />
+			<Add library="rpcrt4" />
+			<Add library="SDL2" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add library="libSDL2_image" />
+			<Add library="libglew32" />
+			<Add library="libopengl32" />
+			<Add directory="C:/SDL2-2.30.11/i686-w64-mingw32/lib" />
+			<Add directory="../../Program Files/CodeBlocks/MinGW/lib" />
+		</Linker>
+		<ExtraCommands>
+			<Add after="XCOPY $(#sdl2)\bin\*.dll $(TARGET_OUTPUT_DIR) /D /Y" />
+		</ExtraCommands>
+		<Unit filename="Actor.cpp" />
+		<Unit filename="Actor.h" />
+		<Unit filename="AnimSpriteComponent.cpp" />
+		<Unit filename="AnimSpriteComponent.h" />
+		<Unit filename="BGSpriteComponent.cpp" />
+		<Unit filename="BGSpriteComponent.h" />
+		<Unit filename="BirdActor.cpp" />
+		<Unit filename="BirdActor.h" />
+		<Unit filename="BoxCollisionComponent.cpp" />
+		<Unit filename="BoxCollisionComponent.h" />
+		<Unit filename="CSVConverter.h" />
+		<Unit filename="CameraActor.cpp" />
+		<Unit filename="CameraActor.h" />
+		<Unit filename="CircleComponent.cpp" />
+		<Unit filename="CircleComponent.h" />
+		<Unit filename="Component.cpp" />
+		<Unit filename="Component.h" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.h" />
+		<Unit filename="HUDManager.cpp" />
+		<Unit filename="HUDManager.h" />
+		<Unit filename="InputComponent.cpp" />
+		<Unit filename="InputComponent.h" />
+		<Unit filename="InputSystem.h" />
+		<Unit filename="InputSytem.cpp" />
+		<Unit filename="Math.cpp" />
+		<Unit filename="Math.h" />
+		<Unit filename="MoveComponent.cpp" />
+		<Unit filename="MoveComponent.h" />
+		<Unit filename="NPCActor.cpp" />
+		<Unit filename="NPCActor.h" />
+		<Unit filename="PathFinder.cpp" />
+		<Unit filename="PathFinder.h" />
+		<Unit filename="PigeonActor.cpp" />
+		<Unit filename="PigeonActor.h" />
+		<Unit filename="QLearner.cpp" />
+		<Unit filename="QLearner.h" />
+		<Unit filename="Random.cpp" />
+		<Unit filename="Random.h" />
+		<Unit filename="Renderer.cpp" />
+		<Unit filename="Renderer.h" />
+		<Unit filename="Shader.cpp" />
+		<Unit filename="Shader.h" />
+		<Unit filename="Ship.cpp" />
+		<Unit filename="Ship.h" />
+		<Unit filename="SpriteComponent.cpp" />
+		<Unit filename="SpriteComponent.h" />
+		<Unit filename="StudentActor.cpp" />
+		<Unit filename="StudentActor.h" />
+		<Unit filename="StudentFSMState.h" />
+		<Unit filename="StudentQState.h" />
+		<Unit filename="StudentStates.cpp" />
+		<Unit filename="StudentStates.h" />
+		<Unit filename="Texture.cpp" />
+		<Unit filename="Texture.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="TileMapComponent.cpp" />
+		<Unit filename="TileMapComponent.h" />
+		<Unit filename="VertexArray.cpp" />
+		<Unit filename="VertexArray.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

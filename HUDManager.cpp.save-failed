@@ -1,0 +1,283 @@
+#include "HUDManager.h"
+#include <algorithm>
+#include <sstream>
+#include <iomanip>
+
+// ─────────────────────────────────────────────────────────────────────────────
+HUDManager::HUDManager()  {}
+HUDManager::~HUDManager() {}
+
+// ─────────────────────────────────────────────────────────────────────────────
+bool HUDManager::Initialize(SDL_Window* window, int screenW, int screenH)
+{
+    mWindow  = window;
+    mScreenW = screenW;
+    mScreenH = screenH;
+
+    if (TTF_Init() != 0)
+    {
+        SDL_Log("HUDManager: TTF_Init failed: %s", TTF_GetError());
+        return false;
+    }
+
+    // Software renderer draws on top of whatever GL rendered
+    mRenderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_SOFTWARE);
+    if (!mRenderer)
+    {
+        SDL_Log("HUDManager: SDL_CreateRenderer failed: %s", SDL_GetError());
+        TTF_Quit();
+        return false;
+    }
+    SDL_SetRenderDrawBlendMode(mRenderer, SDL_BLENDMODE_BLEND);
+
+    mFont   = LoadFont(17);
+    mFontSm = LoadFont(13);
+
+    if (!mFont)
+    {
+        SDL_Log("HUDManager: no system font found. "
+                "Install Consolas/Arial or pass a .ttf path.");
+        // still return true — game runs, just no text
+    }
+
+    mReady = true;
+    return true;
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+void HUDManager::Shutdown()
+{
+    if (mFontSm)   { TTF_CloseFont(mFontSm);           mFontSm   = nullptr; }
+    if (mFont)     { TTF_CloseFont(mFont);              mFont     = nullptr; }
+    if (mRenderer) { SDL_DestroyRenderer(mRenderer);    mRenderer = nullptr; }
+    TTF_Quit();
+    mReady = false;
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+TTF_Font* HUDManager::LoadFont(int size)
+{
+    const char* paths[] = {
+        "C:/Windows/Fonts/consola.ttf",       // Windows — Consolas (monospace, perfect)
+        "C:/Windows/Fonts/cour.ttf",          // Windows — Courier New
+        "C:/Windows/Fonts/arial.ttf",         // Windows — Arial
+        nullptr
+    };
+    for (int i = 0; paths[i]; ++i)
+    {
+        TTF_Font* f = TTF_OpenFont(paths[i], size);
+        if (f) return f;
+    }
+    return nullptr;
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+//  LOG
+// ─────────────────────────────────────────────────────────────────────────────
+void HUDManager::AddLog(const std::string& message)
+{
+    mLog.push_back(message);
+    if ((int)mLog.size() > MAX_LOG)
+        mLog.pop_front();
+}
+
+void HUDManager::ClearLog()
+{
+    mLog.clear();
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+//  DRAW PRIMITIVES
+// ─────────────────────────────────────────────────────────────────────────────
+void HUDManager::Text(const std::string& txt, int x, int y,
+                       SDL_Color col, TTF_Font* font)
+{
+    if (!mRenderer || txt.empty()) return;
+    TTF_Font* f = font ? font : mFont;
+    if (!f) return;
+
+    SDL_Surface* surf = TTF_RenderText_Blended(f, txt.c_str(), col);
+    if (!surf) return;
+
+    SDL_Texture* tex = SDL_CreateTextureFromSurface(mRenderer, surf);
+    SDL_FreeSurface(surf);
+    if (!tex) return;
+
+    int tw = 0, th = 0;
+    SDL_QueryTexture(tex, nullptr, nullptr, &tw, &th);
+    SDL_Rect dst{x, y, tw, th};
+    SDL_RenderCopy(mRenderer, tex, nullptr, &dst);
+    SDL_DestroyTexture(tex);
+}
+
+void HUDManager::Rect(int x, int y, int w, int h,
+                       Uint8 r, Uint8 g, Uint8 b, Uint8 a)
+{
+    SDL_SetRenderDrawColor(mRenderer, r, g, b, a);
+    SDL_Rect rc{x, y, w, h};
+    SDL_RenderFillRect(mRenderer, &rc);
+}
+
+void HUDManager::Line(int x, int y, int w,
+                       Uint8 r, Uint8 g, Uint8 b, Uint8 a)
+{
+    SDL_SetRenderDrawColor(mRenderer, r, g, b, a);
+    SDL_RenderDrawLine(mRenderer, x, y, x + w, y);
+}
+
+void HUDManager::Bar(int x, int y, int w, int h,
+                      int value, int maxVal, SDL_Color fill)
+{
+    // Dark background track
+    Rect(x, y, w, h, 30, 26, 18, 210);
+
+    // Border
+    SDL_SetRenderDrawColor(mRenderer, 170, 130, 50, 180);
+    SDL_Rect border{x, y, w, h};
+    SDL_RenderDrawRect(mRenderer, &border);
+
+    // Coloured fill
+    int filled = (maxVal > 0) ? std::min(w - 2, value * (w - 2) / maxVal) : 0;
+    if (filled > 0)
+        Rect(x + 1, y + 1, filled, h - 2,
+             fill.r, fill.g, fill.b, fill.a);
+}
+
+int HUDManager::StatRow(const std::string& label,
+                         int value, int maxVal,
+                         SDL_Color barCol,
+                         int x, int y)
+{
+    TTF_Font* sf = mFontSm ? mFontSm : mFont;
+
+    // Label (left column, fixed width)
+    Text(label, x + PAD, y, White(), sf);
+
+    // Bar (middle)
+    int barX = x + LABEL_W;
+    int barW = PW - LABEL_W - 60;
+    Bar(barX, y + 2, barW, BAR_H, value, maxVal, barCol);
+
+    // "value/max" (right)
+    std::string valStr = std::to_string(value) + "/" + std::to_string(maxVal);
+    Text(valStr, barX + barW + 6, y, Dim(), sf);
+
+    return y + ROW_H;
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+//  MAIN DRAW  — exactly mirrors your console screenshot layout
+// ─────────────────────────────────────────────────────────────────────────────
+void HUDManager::Draw(const HUDData& hud)
+{
+    if (!mReady || !mRenderer) return;
+
+    TTF_Font* sf = mFontSm ? mFontSm : mFont;
+
+    // ── Semi-transparent panel background ─────────────────────────────────
+    Rect(PX - 2, 4, PW + 6, mScreenH - 8,  10, 8, 5, 185);
+
+    int y = 10;
+
+    // ── Top border  "+========= MINER BOB * Q-Learning Live Game Loop =========+" ──
+    {
+        std::string eq(52, '=');
+        Text("+" + eq + "+", PX, y, Yellow(), sf);  y += 18;
+        Text("|          MINER BOB  *  Q-Learning Live Game Loop          |",
+             PX, y, Yellow(), mFont);                y += 20;
+        Text("+" + eq + "+", PX, y, Yellow(), sf);  y += 14;
+    }
+
+    // ── Row 1: Episode / Ticks / Speed ────────────────────────────────────
+    {
+        std::ostringstream ss;
+        ss << "Episode: " << hud.episode
+           << "   Ticks: " << hud.totalTicks
+           << "   Speed: " << static_cast<int>(hud.speedMs) << "ms/tick";
+        if (hud.paused) ss << "  ** PAUSED **";
+        Text(ss.str(), PX + PAD, y, hud.paused ? Red() : Cyan(), sf);
+        y += ROW_H;
+    }
+
+    // ── Row 2: Epsilon / Reward ───────────────────────────────────────────
+    {
+        std::ostringstream ss;
+        ss << "Epsilon: " << std::fixed << std::setprecision(4) << hud.epsilon
+           << "   Reward (ep): " << std::setprecision(1) << hud.reward;
+        Text(ss.str(), PX + PAD, y, Cyan(), sf);
+        y += ROW_H;
+    }
+
+    // ── Row 3: Location (name highlighted green) ──────────────────────────
+    {
+        std::string prefix = "Location: ";
+        Text(prefix, PX + PAD, y, Cyan(), sf);
+
+        // Measure prefix width so we can place location right after it
+        int pw = 0, ph = 0;
+        if (sf) TTF_SizeText(sf, prefix.c_str(), &pw, &ph);
+        Text(hud.location, PX + PAD + pw, y, Green(), sf);
+
+        // Also show current action on the same line (right side)
+        std::string actStr = "| " + hud.action;
+        int aw = 0, ah = 0;
+        if (sf) TTF_SizeText(sf, actStr.c_str(), &aw, &ah);
+        Text(actStr, PX + PW - aw - PAD, y, Yellow(), sf);
+
+        y += ROW_H + 2;
+    }
+
+    // ── Separator ─────────────────────────────────────────────────────────
+    Line(PX, y, PW);  y += 10;
+
+    // ── Stat bars ─────────────────────────────────────────────────────────
+    y = StatRow("Gold",    hud.gold,    hud.maxGold,    Yellow(), PX, y);
+
+    SDL_Color thirstCol = (hud.thirst  >= hud.maxThirst)  ? Red() : Cyan();
+    y = StatRow("Thirst",  hud.thirst,  hud.maxThirst,  thirstCol, PX, y);
+
+    SDL_Color fatCol    = (hud.fatigue >= hud.maxFatigue) ? Red() : Yellow();
+    y = StatRow("Fatigue", hud.fatigue, hud.maxFatigue, fatCol,    PX, y);
+
+    y = StatRow("Bank",    hud.bank,    hud.maxBank,    Green(),   PX, y);
+
+    y += 4;
+    Line(PX, y, PW);  y += 10;
+
+    // ── Controls hint ─────────────────────────────────────────────────────
+    Text("Controls: [+/-] speed   [p] pause   [q] quit",
+         PX + PAD, y, Dim(), sf);
+    y += ROW_H + 4;
+
+    // ── Dialogue Log ──────────────────────────────────────────────────────
+    {
+        std::string dashes(42, '-');
+        Text("-- Dialogue Log " + dashes, PX + PAD, y, Dim(), sf);
+        y += ROW_H + 2;
+    }
+
+    // Show last SHOW_LOG entries from the log, newest at bottom
+    int startIdx = std::max(0, (int)hud.log.size() - SHOW_LOG);
+    int total    = (int)hud.log.size();
+
+    for (int i = startIdx; i < total; ++i)
+    {
+        // Age: 0 = newest (brightest)
+        int age = total - 1 - i;
+
+        SDL_Color lineCol;
+        if      (age == 0) lineCol = White();
+        else if (age <= 2) lineCol = {200, 185, 130, 255};
+        else if (age <= 5) lineCol = {150, 135,  90, 255};
+        else               lineCol = Dim();
+
+        // ERROR lines always red
+        if (hud.log[i].find("ERROR") != std::string::npos)
+            lineCol = Red();
+
+        Text(hud.log[i], PX + PAD, y, lineCol, sf);
+        y += 18;
+
+        if (y > mScreenH - 8) break;
+    }
+}
